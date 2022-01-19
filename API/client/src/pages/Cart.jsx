@@ -266,7 +266,7 @@ const Cart = () => {
               <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
             </SummaryItem>
             <StripeCheckout
-              name="MY CLOTH SHOP"
+              name="MY CLOTHES SHOP"
               image="https://i.imgur.com/t8QgHLA.jpg"
               billingAddress
               shippingAddress

@@ -92,7 +92,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>MY CLOTH SHOP</Logo>
+        <Logo>MY CLOTHES SHOP</Logo>
         <Desc>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
@@ -194,7 +194,7 @@ const Footer = () => {
         </ContactItem>
         <ContactItem>
           <MailOutline style={{ marginRight: "10px" }} />{" "}
-          contact@myclothshop.com
+          contact@myclothesshop.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>

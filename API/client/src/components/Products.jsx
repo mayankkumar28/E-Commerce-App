@@ -19,8 +19,8 @@ const Products = ({ cat, filters, sort }) => {
       try {
         const res = await axios.get(
           cat
-            ? `https://myclothstore.netlify.app/api/products?category=${cat}`
-            : "https://myclothstore.netlify.app/api/products"
+            ? `https://myclothesshop.herokuapp.com/api/products?category=${cat}`
+            : "https://myclothesshop.herokuapp.com/api/products"
         );
         setProducts(res.data);
       } catch (err) {}

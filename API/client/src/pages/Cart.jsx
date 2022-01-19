@@ -186,6 +186,7 @@ const Cart = () => {
       } catch {}
     };
     stripeToken && makeRequest();
+    // eslint-disable-next-line
   }, [stripeToken, cart.total, history]);
 
   const handleQuantity = (type) => {

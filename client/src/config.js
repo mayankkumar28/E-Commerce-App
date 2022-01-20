@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "https://myclothesstore.netlify.app/api/",
+  baseURL: "http://localhost:3001/api/",
 });
